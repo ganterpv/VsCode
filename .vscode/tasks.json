@@ -1,0 +1,19 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "name": "Testing",
+    "version": "0.1.0",
+    "command": "tsc",
+    "isShellCommand": true,
+    "args": ["-p", "."],
+    "showOutput": "always",
+    "problemMatcher": "$tsc",
+    "tasks": [
+        {
+            // Web browser
+            "taskName": "Browse",
+            "isTestCommand": true,
+            "args": ["explorer"]
+        }
+    ]
+} 
